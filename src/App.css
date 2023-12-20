@@ -1,38 +1,263 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+.navbar{
+  width: 100%;
+  height: 13%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  /* border: 1px solid red; */
+}
+.logos{
+  display: flex;
+}
+.navbar ul li:nth-child(1) {
+  color: rgb(29,78,216);;
+}
+
+.logo{
+  cursor: pointer;
+  margin-left: 15px;
+}
+.GeekFoods{
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+ul{
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+ul li:hover{
+  color: rgb(29,78,216);
+}
+
+.btn{
+  margin-right: 2rem;
+  /* border: 2px solid red; */
+}
+.getStarted{
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(29,78,216);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.getStarted:hover{
+  background-color: rgb(22, 63, 174);
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80');
+  background-position: center 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 4.3rem;
+  /* border: 0.5px solid transparent; */
+}
+.txt{
+  width: 35%;
+  margin-left: 4.5rem;
+  margin-top: 4.6rem;
+  /* border: 2px solid red; */
+}
+.fontt{
   text-align: center;
+  font-size: 3.5rem;
+  /* border: 2px solid red; */
+}
+.mid{
+  font-size: 3.3rem;
+  padding-left: -20px;
+  color: rgb(190,18,60);
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.para{
+  width: 35%;
+  margin-left: 5.5rem;
+  padding-left: 3px;
+  font-weight: 600;
+  font-size: 17px;
+  /* border: 2px solid red; */
+}
+.left{
+  width: 13%;
+  height: 10%;
+  color: white;
+  background-color: rgb(225,29,72);
+  border: none;
+  border-radius: 5px;
+  margin-left: 2.5rem;
+  margin-top: 1.9rem;
+  cursor: pointer;
+}
+.left:hover{
+  background-color: rgb(180, 24, 58);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leftt{
+  width: 13%;
+  height: 10%;
+  margin-left: 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.leftt:hover{
+  color:  rgb(180, 24, 58);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secMain{
+  width: 100%;
+  height: 110%;
+  display: flex;
+  /* border: 2px solid red; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image{
+  width: 48%;
+  height: 70%;
+  margin-top: 8rem;
+  margin-left: 2rem;
+  position: absolute;
+  /* border: 1px solid red; */
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.another{
+  width: 52%;
+  height: 85%;
+  margin-left: 36rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(243,244,246);
+  /* border: 2px solid red; */
+}
+.mainTxxt{
+  width: 75%;
+  margin-left: 6rem;
+  /* border: 2px solid red; */
+}
+
+.mainparagraph{
+  width: 75%;
+  margin-left: 6rem;
+  /* border: 2px solid red; */
+}
+.mainBtn{
+  width: 25%;
+  padding: 13px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-right: 14rem;
+  background-color: rgb(79,70,229);
+  cursor: pointer;
+}
+.mainBtn:hover{
+  background-color: transparent;
+  color: rgb(79,70,229);
+  border: 1px solid rgb(79,70,229);
+}
+
+
+.cardsContainer{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+.Fcard{
+  width: 29%;
+  height: 52%;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  background-color: rgb(249,250,251);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid red;
+}
+
+.cardCenter{
+  width: 90%;
+  padding-top: 2rem;
+  display: flex;
+  margin-left: 1.5rem;
+  /* border: 1px solid black; */
+}
+
+.cardsTxt{
+  width: 29%;
+  height: 10%;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+.cardsTxtImg{
+  width: 50px;
+  height: 50px;
+  /* display: flex; */
+  border-radius: 50%;
+}
+.headSeo{
+  /* display: flex; */
+  margin-left: 1rem;
+  /* margin-top: 4px; */
+  /* border: 2px solid black; */
+}
+
+/* .Small{
+  width: 45px;
+  height: 45px;
+  margin-top: 3.5rem;
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.imgSmall{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: ;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.FsmallTxt{
+  width: 50%;
+  margin-left: 4rem;
+  margin-top: -3rem;
+  display: flex;
+  border: 2px solid black;
+} */
