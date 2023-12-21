@@ -1,28 +1,87 @@
-function Cards() {
+function Cards(props) {
   return (
-    <div class="cardsContainer">
-      <div class="Fcard">
-        <p class="cardCenter">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minima
-          dicta amet, molestiae aliquam incidunt suscipit recusandae labore
-          ratione doloremque, architecto et illo minus quo tenetur ducimus,
-          voluptatibus repellendus fuga aperiam vel ab! Ipsam corrupti
-          blanditiis dolorum! Officia assumenda rem nam, eveniet enim ad
-          inventore laudantium est illum voluptatem quis.
-        </p>
+    <div class="CardContainer">
+        <ul class="sixCards">
+            <li class="cardss">
+                <p class="cardCenterPara">{props.card1Para}</p>
 
-      
-        
-      </div>
-      <div class="cardsTxt">
-        <img class="cardsTxtImg" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
+                <div class="imagePara">
+                     <img class="imagee" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
 
-     <div class="headSeo">
-        <h5>Gladis Lennon</h5>
-        <p>Head of SEO</p>
-        </div>
-        </div>
-     </div>
+                     <div class="cardHead">
+                     <h5 style={{color:"black"}}>Gladis Lennon</h5>
+                     <p class="lightSeo">Head of SEO</p>
+                     </div>
+                </div>
+
+            </li>
+
+            <li class="cardss2">
+            <p class="cardCenterPara">{props.card2Para}</p>
+
+            <div class="imagePara">
+                     <img class="imagee" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
+
+                     <div class="cardHead">
+                     <h5 style={{color:"black"}}>Gladis Lennon</h5>
+                     <p class="lightSeo">Head of SEO</p>
+                     </div>
+                </div>
+            </li>
+
+            <li class="cardss3">
+            <p class="cardCenterPara">{props.card3Para}</p>
+
+            <div class="imagePara">
+                     <img class="imagee" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
+
+                     <div class="cardHead">
+                     <h5 style={{color:"black"}}>Gladis Lennon</h5>
+                     <p class="lightSeo">Head of SEO</p>
+                     </div>
+                </div>
+            </li>
+
+            <li class="cardss4">
+            <p class="cardCenterPara">{props.card4Para}</p>
+
+            <div class="imagePara">
+                     <img class="imagee" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
+
+                     <div class="cardHead">
+                     <h5 style={{color:"black"}}>Gladis Lennon</h5>
+                     <p class="lightSeo">Head of SEO</p>
+                     </div>
+                </div>
+            </li>
+
+            <li class="cardss5">
+            <p class="cardCenterPara">{props.card5Para}</p>
+
+            <div class="imagePara">
+                     <img class="imagee" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
+
+                     <div class="cardHead">
+                     <h5 style={{color:"black"}}>Gladis Lennon</h5>
+                     <p class="lightSeo">Head of SEO</p>
+                     </div>
+                </div>
+            </li>
+
+            <li class="cardss6">
+            <p class="cardCenterPara">{props.card6Para}</p>
+
+            <div class="imagePara">
+                     <img class="imagee" src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" />
+
+                     <div class="cardHead">
+                     <h5 style={{color:"black"}}>Gladis Lennon</h5>
+                     <p class="lightSeo">Head of SEO</p>
+                     </div>
+                </div>
+            </li>
+        </ul>
+    </div>
   );
 }
 export default Cards;
